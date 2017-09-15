@@ -1,10 +1,11 @@
 # LCD refactor
-Para efectos practicos se exporta las librerias necesarias para las pruebas y se mantiene la jerarquía de archivos.
+<pre>
+<p>Para efectos practicos se exporta las librerias necesarias para las pruebas y se mantiene la jerarquía de archivos.</p>
 
-Compilar: javac -cp .:junit-4.12.jar:hamcrest-core-1.3.jar ./\*.java
-Ejecutar: java LCDTester
-Pruebas:  java -cp .:junit-4.12.jar:hamcrest-core-1.3.jar org.junit.runner.JUnitCore ImpresorLCDTest
-
+<p><b>Compilar:</b> javac -cp .:junit-4.12.jar:hamcrest-core-1.3.jar ./\*.java</p>
+<p><b>Ejecutar:</b> java LCDTester</p>
+<p><b>Pruebas:</b>  java -cp .:junit-4.12.jar:hamcrest-core-1.3.jar org.junit.runner.JUnitCore ImpresorLCDTest</p>
+</pre>
 
 Objetivo: Crear un programa que imprime números en estilo de una pantalla LCD
 
